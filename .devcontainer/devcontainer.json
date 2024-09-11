@@ -9,6 +9,5 @@
     "settings": {
         "editor.formatOnSave": true  // Example of VS Code settings you can add
     },
-    "postCreateCommand": "bash sudo ./.devcontainer/setup.sh", 
-    "forwardPorts": [3306],
+    "postCreateCommand": "bash ./.devcontainer/setupmysql.sh"
 }
