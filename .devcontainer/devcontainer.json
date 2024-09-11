@@ -9,5 +9,6 @@
     "settings": {
         "editor.formatOnSave": true  // Example of VS Code settings you can add
     },
+    "postCreateCommand": "bash setup.sh", 
 
 }
