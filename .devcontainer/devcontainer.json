@@ -9,5 +9,5 @@
     "settings": {
         "editor.formatOnSave": true  // Example of VS Code settings you can add
     },
-    "postCreateCommand": "bash ./.devcontainer/setupmysql.sh"
+    "postCreateCommand": "sleep 5 && bash ./.devcontainer/setupmysql.sh > /tmp/output.txt 2&>1"
 }
