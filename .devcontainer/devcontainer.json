@@ -1,1 +1,13 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+   
+    "extensions": [
+        "ms-python.python",        // Python extension
+        "esbenp.prettier-vscode",  // Prettier extension
+        "dbaeumer.vscode-eslint"   // ESLint extension
+    ],
+    "settings": {
+        "editor.formatOnSave": true  // Example of VS Code settings you can add
+    },
+
+}
