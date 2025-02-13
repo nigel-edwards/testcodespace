@@ -13,7 +13,7 @@ sudo apt update
 sudo apt install mysql-client -y
 ```
 
-To start and stop th econtainer
+To start and stop the container
 
 ```bash
 docker stop mysql-container
