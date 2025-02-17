@@ -26,3 +26,9 @@ Connect to MySQL
 ```bash
 mysql -h 127.0.0.1 -P 3306 -u root -p
 ```
+
+Install Postgres
+
+```bash
+docker run -d -e POSTGRES_PASSWORD=admin -p 5432:5432 postgres
+```
