@@ -9,5 +9,6 @@
     "settings": {
         "editor.formatOnSave": true  // Example of VS Code settings you can add
     },
-    "postAttachCommand": "bash $CODESPACE_VSCODE_FOLDER/.devcontainer/setupmysql.sh"
+    "postCreateCommand": "bash $CODESPACE_VSCODE_FOLDER/.devcontainer/setupmysql.sh > /tmp/nigel.log"
+    // "postAttachCommand": "bash $CODESPACE_VSCODE_FOLDER/.devcontainer/setupmysql.sh"
 }
