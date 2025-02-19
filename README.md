@@ -38,3 +38,9 @@ To connect
 ```bash
 psql -U postgres -h 127.0.0.1
 ```
+
+When reloading after a while - you may need to restart the container:
+
+```bash
+docker start postgres-container
+```
